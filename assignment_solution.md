@@ -1,4 +1,4 @@
-# Reddit-Application-Assignment using Kuberneted(k8s)
+# Reddit-Application-Assignment using Kubernetes(k8s)
 ## Requriements:-
 ### 1. AWS ec2 instance t2 micro
 ### 2. Docker Hub Profile Create it
@@ -34,5 +34,19 @@ cat Dockerfile
 docker build . -t sandypaia320/reddit-k8s:latest
 ```
 ![image](https://github.com/Paisandy/reddit-clone-k8s-pro/assets/115485972/2f15c5d2-8adf-4272-be63-5b22669011f3)
+![image](https://github.com/Paisandy/reddit-clone-k8s-pro/assets/115485972/36457c00-8c77-484d-9fd5-85be6fffa5dc)
+
 #### sandypaia320 ---> DockerHub user name.. So change it.!
 #### reddit-k8s:latest ---> Docker child image
+
+### Push to Dockerhub
+```
+docker login
+```
+![image](https://github.com/Paisandy/reddit-clone-k8s-pro/assets/115485972/7c200215-b76f-4d07-a0e9-32ff825e8765)
+```
+docker push sandypaia320/reddit-k8s:latest
+```
+![image](https://github.com/Paisandy/reddit-clone-k8s-pro/assets/115485972/5c4f0c59-2192-4059-8683-534545c3f761)
+![image](https://github.com/Paisandy/reddit-clone-k8s-pro/assets/115485972/9ff6f0ff-8baf-4648-8f1c-dc1776d8d6f9)
+
