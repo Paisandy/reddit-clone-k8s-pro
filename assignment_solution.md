@@ -132,7 +132,7 @@ kubectl apply -f service.yml -n reddit-ns
 ```
 ![image](https://github.com/Paisandy/reddit-clone-k8s-pro/assets/115485972/b1fed116-9987-45aa-9f68-d86a758c9af4)
 
-## To get URLL for your app:
+## To get URL for your app:
 ```
 minikube service reddit-clone-service -n reddit-ns created --url
 ```
